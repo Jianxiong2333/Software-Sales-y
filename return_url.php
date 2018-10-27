@@ -1,15 +1,26 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <title>心之印画|支付结果返回页面</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <style>
+            html, body{width: 95%;height: 90%;}
+            body{background-image: linear-gradient(45deg, #83a4d4, #b6fbff);}
+            h1{color: #ffffff;}
+            h4{color: #f9e395;}
+            p{color:#F5F7FA;}
+            a{ border-bottom:1px dashed #111;text-decoration:none;}
+            a:link{color: #f9e395;}
+            a:visited{color: #f9e395;}
+            a:hover{border:0;}
+        </style>
+        <title>樱花|支付结果返回页面</title>
 	</head>
     <body>
     <?php
     /* *
      * 功能：支付宝页面跳转同步通知页面
      * 版本：2.0
-     * 修改日期：2017-05-01
+     * 修改日期：2017-05-01(Alipay)/2018-10-10(Jianxiong2333)
      * 说明：
      * 以下代码只是为了方便商户测试而提供的样例代码，商户可以根据自己网站的需要，按照技术文档编写,并非一定要使用该代码。
 
