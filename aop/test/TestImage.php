@@ -91,7 +91,6 @@ class TestImage{
 
 
 
-
 //  测试
 $test1 = new TestImage();
 $test1 -> load();
