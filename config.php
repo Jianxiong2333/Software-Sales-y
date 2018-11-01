@@ -3,19 +3,19 @@ $config = array (
     //app_id应用ID,您的APPID。
     'app_id' => '123456789',
 
-    //商户私钥
+    //商户私钥，使用支付宝官方 RSA 验签工具生成
     'merchant_private_key' => '',
 
-    //异步通知地址
-    'notify_url' => 'http://xxx.xxx.xxx/notify_url.php',
+    //异步通知地址，通常存于根目录 notify_url.php 文件
+    'notify_url' => 'http://xxx.****.xxx/notify_url.php',
 
-    //同步跳转
-    'return_url' => 'http://xxx.xxx.xxx/return_url.php',
+    //同步跳转地址，通常存于根目录 return_url.php 文件
+    'return_url' => 'http://xxx.****.xxx/return_url.php',
 
-    //编码格式
+    //编码格式，默认UTF-8
     'charset' => 'UTF-8',
 
-    //签名方式
+    //签名方式，默认RSA2
     'sign_type'=> 'RSA2',
 
     //支付宝网关
